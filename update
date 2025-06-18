@@ -1,3 +1,4 @@
 #! /bin/sh
 
+echo "WATCHTOWER_NOTIFICATIONS_HOSTNAME=$(hostnamectl hostname)" >> ".env"
 docker compose pull && docker compose up -d
