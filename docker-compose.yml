@@ -8,6 +8,6 @@ services:
     environment:
       WATCHTOWER_NOTIFICATIONS_HOSTNAME: ${WATCHTOWER_NOTIFICATIONS_HOSTNAME}
       WATCHTOWER_POLL_INTERVAL: 3600
-      WATCHTOWER_NO_STARTUP_MESSAGE: "true"
-      WATCHTOWER_NOTIFICATION_REPORT: "true"
-      WATCHTOWER_NOTIFICATION_URL: "generic://buildbot.funfair.io/watchtower/deploy?template=json"
+#      WATCHTOWER_NO_STARTUP_MESSAGE: "true"
+#      WATCHTOWER_NOTIFICATION_REPORT: "true"
+#      WATCHTOWER_NOTIFICATION_URL: "generic://buildbot.funfair.io/watchtower/deploy?template=json"
