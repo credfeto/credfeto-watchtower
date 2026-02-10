@@ -1,6 +1,6 @@
 services:
   watchtower:
-    image: containrrr/watchtower
+    image: https://github.com/credfeto/credfeto-watchtower.git
     container_name: watchtower
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
