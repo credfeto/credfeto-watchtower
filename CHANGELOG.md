@@ -18,7 +18,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Removed tracked .idea/ files already covered by .gitignore
 ### Changed
 - Added .idea/ to .gitignore
-- TBD - to be finalized after review
+- Watchtower now runs on a cron schedule (default 0 54 * * * *, overridable via WATCHTOWER_SCHEDULE) and cleans up old images
 ### Deprecated
 ### Removed
 ### Deployment Changes
